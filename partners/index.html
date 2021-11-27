@@ -82,12 +82,12 @@
           
          <img src="img/world.png">
         </div>
-        <div class="col-lg-8 d-flex verticaltext ">
+        <div class="col-lg-8 d-flex verticaltext checkBox ">
          
-          <div class="d-block">
+          <div class="d-block" class="checkBox1">
           <p style="margin-left: 20rem;">1</p>
       
-         <p style=" margin-left: 20rem;" class="vertical">
+         <p style=" margin-left: 20rem; cursor: pointer;" class="vertical" onclick="clickHandlerOne()">
           Become our partner
          </p>
         </div> 
@@ -97,7 +97,7 @@
         <div class="d-block">
           <p style="margin-left: -13rem;">2</p>
          <div class="vertical">
-          <p style="margin-right: 15rem; margin-left: -5rem;">What we have </p> 
+          <p style="margin-right: 15rem; margin-left: -5rem; cursor: pointer;"  onclick="clickHandlerTwo()">What we have </p> 
          
          </div>
         </div> 
@@ -106,7 +106,7 @@
         <div class="d-block">
           <p style="margin-left: -14rem;">3</p>
          <div  class="vertical">
-          <p style="margin-right: 15rem; margin-left: -6rem;">
+          <p style="margin-right: 15rem; margin-left: -6rem; cursor: pointer;"onclick="clickHandlerThree()">
           What we can offer  </p> 
       
          </div>
@@ -118,8 +118,8 @@
         <div class="d-block">
           <p style="margin-left: -14rem;">4</p>
          <div  class="vertical">
-          <p style="margin-right: 15rem; margin-left: -6rem;">
-          What we can offer  </p> 
+          <p style="margin-right: 15rem; margin-left: -6rem; cursor: pointer;" onclick="clickHandlerFour()">
+            Why us as your partner  </p> 
       
          </div>
         </div> 
@@ -128,26 +128,17 @@
    
 
 
-  <!-- <div style="margin-top: -2rem; margin-left: 1rem;" class="col-lg-5 text-start">
-<p  style="font-weight: 500;font-size: 51px;">4</p>
-      <p style="font-weight: 600;font-size: 21px;">Why us as your partner</p> -->
-      <!-- <p style="font-weight: 500;font-size: 16px;">We believe that partnerships are not just for business 
-        alone but those that can foster bonds of togetherness 
-        and workmanship in being part of our team and 
-        extending our ideologies and vision the world over in 
-        developing solutions or erasing complexities that 
-        impede growth and development.<br><br>
-        
-        The world is moving towards newer panoramas and 
-        horizons and let us together be instrumental in 
-        helping to do so.Moving together is a better bet than 
-        moving alone.</p> -->
+   <div  id="box4" style="margin-top: -2rem; margin-left: 1rem;" class="col-lg-5 text-start ">
+<p  id="number" style="font-weight: 500;font-size: 51px;"></p>
+      <p id="paraHeading" style="font-weight: 600;font-size: 21px;"></p> 
+       <p id="description" style="font-weight: 500;font-size: 16px;"></p>
   </div>
-     
+
+  
     
 
     
-    </div>
+    </div> 
   </section>
 
     <!--clients-->
