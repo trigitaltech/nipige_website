@@ -1,9 +1,7 @@
 // let modal = document.getElementById('contact-modal'),
 let modal = document.getElementsByClassName("modal")[0];
-let openModal = document.querySelector('.collapse > div');
-let closeModal = document.querySelector('#modal-header > span');
-
-let closebtn = document.querySelector(".closeit");
+let openModal = document.querySelector('#contactus > button');
+let closeModal = document.querySelector('.close');
 
 openModal.addEventListener('click', function (event) {
     event.preventDefault();
