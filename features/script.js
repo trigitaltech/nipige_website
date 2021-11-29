@@ -12,6 +12,7 @@ options.forEach(element => {
         e.target.classList.add("active");
         elem = document.querySelector(`.right-tab > div.${classname}-card`);
         elem.classList.toggle("hidden");
+        
     })
 })
 
@@ -22,6 +23,6 @@ const hide = () => {
     });
 
     options.forEach(e => {
-        e.classList.remove("options");
+        e.classList.remove("active");
     })
 }

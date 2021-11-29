@@ -311,3 +311,9 @@ padding: 1rem;
     color:#503291 ;
     cursor: pointer;
   } 
+
+
+  .active {
+      color:rgba(80, 50, 145, 0.8);
+      border-bottom: 6px solid #503291;
+  }
