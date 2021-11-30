@@ -1,6 +1,6 @@
 # nipige_website
 
-Nipige Website
+Nipige Website:https://develop.d457y5slix7wk.amplifyapp.com/
 
 For a Clean and Fresh look 
 Follow the Design given at https://www.figma.com/file/sy3mVeg8OHEq03jJJ01SWt/nipige-Website
