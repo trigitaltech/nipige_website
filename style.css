@@ -26,8 +26,14 @@ body{
 }
 
 .nav-item{
-  font-size: 16px;
-  font-weight: 500;
+  /* font-size: 16px;
+  font-weight: 500; */
+  font-weight : 600×;
+font-family : Montserrat, sans-serif;
+/* Style normal  : 600; */
+font-size : 15px;
+ line-height:  22px;
+color : #6161f7;
 }
 
 .btn{

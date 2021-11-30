@@ -190,43 +190,58 @@ padding: 1rem;
     color: white;
     border-radius: 5px;
 }
-
+/* 
 .vertical{
     writing-mode: vertical-rl;
     text-orientation: mixed;
     font-weight: 500;
     font-size: 16px;
     margin-left: 7.4rem;
+   } */
+
+   
+.vertical{
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 7.4rem;
    }
 
-   .vl {
-    border-left: 1px solid black;
-    height: 250px;
+   /* .vl { */
+    /* border-left: 1px solid black; */
+    /* height: 250px; */
     /* height: 500px;
     left: 1rem; */
-  }
+  /* } */
 
   
-  .v2 {
+  /* .v2 {
     border-left: 1px solid black;
     margin-left: -14rem;
-    height: 250px;
+    height: 250px; */
+    /* height: 500px;
+    left: 1rem; */
+  /* } */
+
+  /* .v3 {
+    border-left: 1px solid black;
+    margin-left: -14rem;
+    height: 250px; */
 
     /* height: 500px;
     left: 1rem; */
-  }
-
-  .v3 {
-    border-left: 1px solid black;
-    margin-left: -14rem;
-    height: 250px;
-
-    /* height: 500px;
-    left: 1rem; */
-  }
+   /* } */
 
   .verticaltext{
-      margin-left: 10rem;
+      margin-left: 4rem;
   }
   
+  .horizontal{
+      margin-left: 18rem;
+      width: 200px;
+      border: 2px solid rgb(8, 8, 8);
+  }
   
+#box4{
+    margin-top: -15rem;
+}
