@@ -63,7 +63,17 @@ body{
     background-size: cover;
     margin-top: -5rem;
     margin-bottom: 5rem;
+    
 }
+
+@media (max-width:400px) {
+    .Enterpriseimg{
+      width: 10px;
+      height: auto;
+    }
+}
+
+
 .headerR{
 padding: 5rem;
 }
