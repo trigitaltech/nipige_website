@@ -58,31 +58,36 @@ const hide = () => {
      document.getElementById("#toggleMobileMenu").style.display="block";
      }
 
-   function responsive_menu(){
- var e = document.getElementById('menu_small');
- if(e.className === 'menu-item'){
-    e.className += " responsive";
- }else{
-     e.className === 'menu-item';
- }
-   }  
+//    function responsive_menu(){
+//  var e = document.getElementById('menu_small');
+//  if(e.className === 'menu-item'){
+//     e.className += " responsive";
+//  }else{
+//      e.className === 'menu-item';
+//  }
+//    }  
 
 
     //  For second page
-    const optionsList = document.querySelectorAll(".options-list > div.list");
-    const rightOptions = document.querySelectorAll(".option");
-    // console.log(rightOptions[0].firstElementChild.getAttribute("src"))
+    const optionsList = document.querySelectorAll(".options-list > div.list"); // list of left-size options element
+    const rightOptions = document.querySelectorAll(".option"); // array of right-side options elements
+
     const hideOptions = () => {
+        // hide all right-side options
         rightOptions.forEach(e => e.classList.add("hidden"));
+        // remove activeOption class from all the optionsList buttons.
         optionsList.forEach(e => e.firstElementChild.classList.remove("activeOption"));
     }
     optionsList.forEach(element => {
         element.addEventListener("click", (e) => {
-            const name = e.target.innerHTML.split(" ").join("-").toLowerCase();
-            hideOptions();
+            // get the target element name, split and make it lowerCase
+            const name = e.target.innerHTML.split(" ").join("-").toLowerCase(); 
+            // hide all the right-side options
+            hideOptions(); 
 
-            document.querySelector(`.${name}`).classList.toggle("hidden");
-            e.target.classList.add("activeOption");
+            // toggle the corret option
+            document.querySelector(`.${name}`).classList.toggle("hidden"); 
+            e.target.classList.add("activeOption"); // activate current button.
         })
     });
 
