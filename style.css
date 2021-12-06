@@ -594,6 +594,11 @@ input[type='submit']:hover{
  padding: 10px 30px;
  font-size:18px ; 
  font-weight: 500;
+ cursor: pointer;
+}
+
+.activeOption:hover {
+    cursor: pointer;
 }
 
 .header1{

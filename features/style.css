@@ -134,7 +134,7 @@ padding: 0.8rem 0.1rem 0 0.1rem;
 
 .card{
     min-height: 100%;
-    min-width: 100%;
+    in-width: 100%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 20px;
     padding-top: 3rem;
@@ -151,6 +151,9 @@ padding: 0.8rem 0.1rem 0 0.1rem;
     background: #503291;
     margin-left: 5rem;
 }
+.cardimg {
+    overflow-x: hidden;
+}
 
 .circlep{
     display: flex;
@@ -162,6 +165,7 @@ padding: 0.8rem 0.1rem 0 0.1rem;
 }
 
 .cardL{
+    /* min-width: 100%; */
     text-align: start;
     justify-content: space-around;
     margin: 5rem 0 5rem 5rem ;
@@ -317,3 +321,77 @@ padding: 1rem;
       color:rgba(80, 50, 145, 0.8);
       border-bottom: 6px solid #503291;
   }
+
+
+  @media (max-width:960px) {
+      .card{
+
+        min-width: 150%;
+        height: auto;
+        margin-left: -5rem; 
+        
+    }
+
+    img {
+        /* width: 100%; */
+        /* height: auto; */
+    }
+
+    .prdctstext{
+        /* min-width: 20%; */
+        /* margin-top: 5rem; */
+        /* margin-right: 45rem; */
+        /* margin-left: -85rem; */
+    }
+
+
+
+    .cardL{
+        /* max-width: 40%; */
+
+        margin-top: 8rem;
+    }
+
+    body > div {
+        max-width: 100%;
+    }
+
+    .contain{
+        min-width: 100%;
+        /* margin-left: 1rem; */
+        margin : 0;
+    }
+
+    .circlep {
+        /* align-content: center; */
+        display: block;
+    }
+    .cardlogo {
+        /* text-align: left;
+        margi */
+        margin: 0;
+    }
+    .cardimg > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .row {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+  }
+
+ .prdctstext{
+    color:#503291 ;
+    margin-left:1rem;
+     font-weight: 600; 
+     font-size: 26px;
+
+  }
+

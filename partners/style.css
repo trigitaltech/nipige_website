@@ -215,6 +215,8 @@ padding: 1rem;
   /* } */
 
   
+
+
   /* .v2 {
     border-left: 1px solid black;
     margin-left: -14rem;
@@ -244,4 +246,62 @@ padding: 1rem;
   
 #box4{
     margin-top: -15rem;
+}
+
+@media (max-width:960px) {
+
+    .contain{
+        max-width: 90%;
+          margin-left: 1rem;
+          /* margin-right: 5rem; */
+    
+      }
+
+      .btn2{
+          min-width: 30%;
+          padding: -15rem 0rem;
+      }
+    .yprtner{
+      display: flex;
+      min-width: 500%;
+    }
+
+    .yprtner {
+        display: block;
+        max-width: 100%;
+    }
+
+    .checkBox1 {
+       
+    }
+
+    .verticaltext{
+        /* Aise nahi karte.... */
+        margin-left: -18rem;
+        margin-top: 1rem;
+        margin-bottom: 25rem;
+        text-align: left;
+        min-width: 100%;
+        display: block;
+    }
+
+    .contain{
+        min-width: 80%;
+        /* margin-left: -0.4rem; */
+    }
+
+    .worldimg{
+     min-width: 10%;
+     margin-left: -25rem;
+     margin-right: 90rem;
+    }
+    
+}
+
+.worldimg{
+    /* width: 100%; */
+}
+
+.checkBox1{
+    display: flex;
 }
