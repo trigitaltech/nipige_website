@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:  'Montserrat', sans-serif;
+}
+
+.nav-section{
+   background-color:  #503291;
+   line-height: 1px;
+   font-size: 12px;
+}
+
+.navbar{
+    line-height: 1px;
+    margin-top: -0.5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-item{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.btn{
+    background-color:  #503291;
+    color: white;
+}
+
+@media(max-width:768px){
+    nav ul{
+        /* display: block; */
+        flex-direction: column;
+    }
+
+    nav ul li {
+        display: block;
+    }
+
+    nav ul li ul{
+        width: 100%;
+        z-index: 1;
+    }
+
+    .featureU{
+        flex-direction: column;
+        
+    }
+
+} 
+#header{
+    background-image: url("img/page-tittle.jpg"); 
+    /* background-color: #cccccc; */
+    height: 500px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+     margin-top: -5rem;
+}
+.headerR{
+padding: 5rem;
+text-align: center;
+/* margin-top: 8rem; */
+}
+
+
+
+h2 {
+    font-size: 28px;
+    font-family: "Rubik", sans-serif;
+    line-height: 35px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+h5 {
+    font-weight: 500;
+    color: #4d4d4d;
+}
+
+.wtd > p {
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+    color: #565656;
+    line-height: 1.5;
+}
