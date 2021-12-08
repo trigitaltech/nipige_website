@@ -275,6 +275,10 @@ padding: 1rem;
        
     }
 
+    #box4{
+        flex-direction: column;
+    }
+
     .verticaltext{
         /* Aise nahi karte.... */
         margin-left: -18rem;
@@ -291,7 +295,7 @@ padding: 1rem;
     }
 
     .worldimg{
-     min-width: 10%;
+     min-width: 10px;
      margin-left: -25rem;
      margin-right: 90rem;
     }
@@ -299,6 +303,7 @@ padding: 1rem;
 }
 
 .worldimg{
+    max-width: 200%;
     /* width: 100%; */
 }
 

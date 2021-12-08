@@ -402,3 +402,35 @@ padding: 1rem;
 .checkBox1{
     display: flex;
 }
+.searchBox{
+    float: right;
+    margin-top: -4rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#myInput{
+    background: #dcdcdc31;
+    width: 400px;
+    height: 40px;
+    padding: 1rem;
+    /* border-radius: 35px; */
+    border: none;
+}
+
+.searchBtn{
+    /* padding: 0.2rem .5rem;
+    background: #dcdcdc31;
+    border: none;
+    border-radius: 15px;
+ margin-left: -2.5rem; */
+ border: none;
+ /* color: #fff ; */
+ margin-left: -3rem;
+ /* align-items: center; */
+ padding: 2px 8px;
+ /* background-color: #14376bd0; */
+ transition: 0.5s;
+ font-weight: 400;
+ font-size: 20px;
+ border-radius: 20px;
+}
