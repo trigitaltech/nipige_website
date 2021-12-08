@@ -69,7 +69,12 @@ text-align: center;
 /* margin-top: 8rem; */
 }
 
-
+.contact-us {
+    background: url(img/bg-about-shape.svg);
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: cover;
+}
 
 h2 {
     font-size: 28px;
