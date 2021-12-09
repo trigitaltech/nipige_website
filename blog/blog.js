@@ -50,12 +50,11 @@ const data = [
 ]
 
 
-
 const searchBlog = (e) => {
     let filter = document.querySelector('#myInput').value.toLowerCase();
     let resultDiv = document.querySelector(".container.card_container.mt-5");
     const sectionDiv = document.querySelector("section > .container")
-
+    console.log("Key: " + filter)
     let cards = data;
     let match = [];
     
