@@ -54,12 +54,11 @@ const data = [
 const searchBlog = (e) => {
     let filter = document.querySelector('#myInput').value.toLowerCase();
     let resultDiv = document.querySelector(".container.card_container.mt-5");
-
     const sectionDiv = document.querySelector("section > .container")
-    sectionDiv.removeChild(resultDiv);
 
     let cards = data;
     let match = [];
+    
 
     for (let x = 0; x < cards.length; x++) {
         if (cards[x].para.toLowerCase().includes(filter)) {
@@ -67,18 +66,41 @@ const searchBlog = (e) => {
         }
     }
 
+    if (resultDiv) {
+        sectionDiv.removeChild(resultDiv);
+    } else {
+        const notFound = document.querySelector(".not-found");
+        sectionDiv.removeChild(notFound);
+        return displayCards(match);
+    }
+
     if (match.length > 0) {
         displayCards(match);
-    } else {
-        displayCards(cards);
+    } 
+    else {
+        // sectionDiv.removeChild(resultDiv);
+        // displayCards(cards);
+        const notFound = document.createElement("div");
+        notFound.classList.add("not-found");
+        notFound.innerHTML = "<h3>Found nothing...</h3>";
+        sectionDiv.appendChild(notFound);
     }
 }
 
-const displayCards = (arr) => {
+const displayCards = (arr, isSearch) => {
     const container = document.querySelector("section > .container");
 
     const newNode = document.createElement("div");
     newNode.setAttribute("class", "container card_container mt-5");
+
+
+    let resultDiv = document.querySelector(".container.card_container.mt-5");
+
+    
+    if (resultDiv) {
+        const sectionDiv = document.querySelector("section > .container")
+        sectionDiv.removeChild(resultDiv);
+    }
 
     arr.forEach((elem, index) => {
         let newDiv = document.createElement("div");
