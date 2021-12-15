@@ -14,7 +14,9 @@
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!--CSS-->
   <link rel="stylesheet" href="style.css">
@@ -32,47 +34,45 @@
   </div>
   <!--NavBar-->
   <nav class="navbar navbar-expand-md navbar-light bg-white ">
-      <div class="container-fluid navbar">
-        <img style="margin-left: -2rem;" class="logo" src="img/logo-1.png" alt="logo">
-  
-        <button class="navbar-toggler" type="button" onClick="clickClickHandler()" onclick="togleHideHandler()"
-        
-        data-toggle="collapse"
-          data-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false"
-          aria-label="Toggle navigation">
-  
-          <span class="navbar-toggler-icon"></span>
-        </button>
-  
-        <form class="d-flex .justify-content-between ">
-          <div class="collapse navbar-collapse" id="#toggleMobileMenu">
-  
-            <ul class="navbar-nav me-auto mb-lg-0 ">
-              <li class="nav-item">
-                <a class="nav-link active " href="/">HOME</a>
-              </li>
-  
-              <li class="nav-item">
-                <a class="nav-link " href="solutions/index.html">SOLUTIONS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " href="features/index.html">FEATURES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " href="partners/index.html">PARTNER</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " href="whatwedo/index.html">WHAT WE DO</a>
-              </li>
-  
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " href="blog/index.html">BLOG</a>
-              </li>
-            </ul>
-            <div id="contactus">
-              <button class="btn  " data-target="#mymodal" data-toggle="modal">Get In Touch</button>
-              <!-- <div id="contact-modal" class="modal">
+    <div class="container-fluid navbar">
+      <img style="margin-left: -2rem;" class="logo" src="img/logo-1.png" alt="logo">
+
+      <button class="navbar-toggler" type="button" onClick="clickClickHandler()" onclick="togleHideHandler()" 
+        data-toggle="collapse" data-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false"
+        aria-label="Toggle navigation">
+
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <form class="d-flex .justify-content-between ">
+        <div class="collapse navbar-collapse" id="#toggleMobileMenu">
+
+          <ul class="navbar-nav me-auto mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link active " href="/">HOME</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="solutions/index.html">SOLUTIONS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="features/index.html">FEATURES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="partners/index.html">PARTNER</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="whatwedo/index.html">WHAT WE DO</a>
+            </li>
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="blog/index.html">BLOG</a>
+            </li>
+          </ul>
+          <div id="contactus">
+            <button class="btn  " data-target="#mymodal" data-toggle="modal">Get In Touch</button>
+            <!-- <div id="contact-modal" class="modal">
                <div id="modal-content">
                  <div id="modal-header">
                    <span class="close-modal" >&times;</span>
@@ -105,57 +105,57 @@
                  </div>
                </div>
               </div> -->
-  
-              <div class="modal " tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"
-                id="mymodal">
-                <div class="modal-dialog modal-dialog-centered">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h2 class="text-center ">Welcome to Nipige</h2>
-                      <button type="button" class="close bg-light" data-dismiss>&times;</button>
-                    </div>
-  
-                    <div class="modal-body">
-                      <h4>Send Us a Message</h4>
-                      <form>
-                        <div class="form-group">
-                          <label for="first-name">First Name</label>
-                          <input type="text" placeholder="Enter Your First Name" name="" class="form-control">
-                        </div>
-                        <div class="form-group">
-                          <label for="last-name">Last Name</label>
-                          <input type="text" placeholder="Enter Your Last Name" name="" class="form-control">
-                        </div>
-                        <div class="form-group">
-                          <label for="email">Email-Address</label>
-                          <input type="text" placeholder="Enter Your Email" name="" class="form-control">
-                        </div>
-                        <div class="form-group">
-                          <label for="message">Message</label>
-                          <textarea type="text" placeholder="Message...."></textarea>
-                        </div>
-                        <button class="btn btn-primary justify-content-cezznter" data-dismiss="modal"> submit</button>
-                      </form>
-                    </div>
-                    <div class="modal-footer justify-content-center">
-                      <!-- <h3>Trigital Technologies &copy; 2021</h3> -->
-                    </div>
+
+            <div class="modal " tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"
+              id="mymodal">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h2 class="text-center ">Welcome to Nipige</h2>
+                    <button type="button" class="close bg-light" data-dismiss>&times;</button>
+                  </div>
+
+                  <div class="modal-body">
+                    <h4>Send Us a Message</h4>
+                    <form action="javascript:sendMail()" method="post">
+                      <div class="form-group">
+                        <label for="first-name" id="FirstName">First Name</label>
+                        <input type="text" placeholder="Enter Your First Name" name="first-name" class="form-control">
+                      </div>
+                      <div class="form-group">
+                        <label for="last-name" id="LastName">Last Name</label>
+                        <input type="text" placeholder="Enter Your Last Name" name="last-name" class="form-control">
+                      </div>
+                      <div class="form-group">
+                        <label for="email" id="Email">Email-Address</label>
+                        <input type="text" placeholder="Enter Your Email" name="email" class="form-control">
+                      </div>
+                      <div class="form-group">
+                        <label for="message" id="Message">Message</label>
+                        <textarea name="message" type="text" class="message" cols="30" rows="5" placeholder="Message...."></textarea>
+                      </div>
+                      <button  class="btn btn-primary justify-content-center sendMail" data-dismiss="modal"> submit</button>
+                    </form>
+                  </div>
+                  <div class="modal-footer justify-content-center">
+                    <!-- <h3>Trigital Technologies &copy; 2021</h3> -->
                   </div>
                 </div>
-  
-  
               </div>
+
+
             </div>
           </div>
-      </div>
-  
-  
-  
-  
-      </form>
-      </div>
-    </nav>
-  
+        </div>
+    </div>
+
+
+
+
+    </form>
+    </div>
+  </nav>
+
 
 
 
@@ -169,11 +169,15 @@
   <section id="header" class="header_wrapper">
     <div class="container-fluid ">
       <div class="headerR">
-        <p  class ="header1">An Online Singular, Unified B2B and B2C Multi-Market Place, Multiple-Business Digitisation & Aggregator Monetization Platform.
+        <p class="header1">An Online Singular, Unified B2B and B2C Multi-Market Place, Multiple-Business Digitisation &
+          Aggregator Monetization Platform.
         </p>
-        <p class="header2">B2B & B2C Hyper local marketplace enablement and engagement is all about nipige. Designed for a gamut of B2B and B2C business models that vie to be part of the E-Commerce space. 
+        <p class="header2">B2B & B2C Hyper local marketplace enablement and engagement is all about nipige. Designed for
+          a gamut of B2B and B2C business models that vie to be part of the E-Commerce space.
         </p>
-        <p style="font-size:16px ; font-weight: 600; ">Vendors, service providers can seamlessly onboard the platform and conduct a variety of hyper-local businesses that belong to the diverse sectors of retail, health care, food & hospitality, broadly speaking E-Commerce and in a way anything that is B2B and B2C.
+        <p style="font-size:16px ; font-weight: 600; ">Vendors, service providers can seamlessly onboard the platform
+          and conduct a variety of hyper-local businesses that belong to the diverse sectors of retail, health care,
+          food & hospitality, broadly speaking E-Commerce and in a way anything that is B2B and B2C.
         </p>
         <div class="button mt-4">
           <button style="font-size:16px ; font-weight: 600;" class="btn ">Schedule Demo</button>
@@ -191,20 +195,21 @@
           <img style="width: 100%;height: 100%;" src="img/location.png">
         </div>
         <div class="col-lg-6">
-          <p style="font-size:20px ; font-weight: 600;margin-top: 8rem;" >Build, Manage And Transform Businesses In Short Spans of Time With Go To Market Ready Functionalities and Features On Fingertips.
+          <p style="font-size:20px ; font-weight: 600;margin-top: 8rem;">Build, Manage And Transform Businesses In Short
+            Spans of Time With Go To Market Ready Functionalities and Features On Fingertips.
           </p>
           <!-- <p style="font-size:16px ; font-weight: 600;font-style: italic;color: #503291;" class="mt-1">We empower build
             big and small online platforms for
             B2B & B2C businesses & enable them to be part of a growing e-marketplace.</p> -->
 
-         
+
           </style>
         </div>
       </div>
     </div>
   </section>
 
-  
+
 
 
   <!--Wrapper-->
@@ -215,7 +220,8 @@
           <div class="heading ">
             <p style="font-size:31px ; font-weight: 600;">What nipige can help you build?
             </p>
-            <p style="font-size:16px ; font-weight: 700; ">Nipige can help build SaaS-based customizable, Multi-vendor, and Multiple service/product-based, Multi-lingual e-marketplaces, for growing hyper-local businesses. 
+            <p style="font-size:16px ; font-weight: 700; ">Nipige can help build SaaS-based customizable, Multi-vendor,
+              and Multiple service/product-based, Multi-lingual e-marketplaces, for growing hyper-local businesses.
             </p>
             <br> <br> <br>
             <p style="font-size:24px ; font-weight: 700; ">
@@ -237,7 +243,7 @@
         <div class="col-md-6 col-lg-4">
 
           <div class="item  text-center">
-            <div class="logos"><img src="img/Vector2.png" class="crdlogo"></div>
+            <div class="logos"><img src="img/Group.png" class="crdlogo"></div>
             <p style="font-size:17px ; font-weight: 600;">Secure data and transactions</p>
             <p style="font-size:14px ; font-weight: 400;">Customer and other types of data is secure and transactions
               safe with Nipige.</p>
@@ -293,67 +299,70 @@
   <!--Superpower-->
   <section id="superpower">
     <div class="container text-center">
-      <p style="font-size:31px ; font-weight: 500;" class="mb-3"> Multitenant Based E-Commerce Solution For Wide-Ranging B2B &B2C Businesses.</p>
-      <p style="font-size:16px ; font-weight: 600;font-style: italic;color: #093280;" class="mb-5">Fully customizable Enterprise-grade E-commerce platform that helps scale small and medium-range businesses of varying sizes and complexities.
+      <p style="font-size:31px ; font-weight: 500;" class="mb-3"> Multitenant Based E-Commerce Solution For Wide-Ranging
+        B2B &B2C Businesses.</p>
+      <p style="font-size:16px ; font-weight: 600;font-style: italic;color: #093280;" class="mb-5">Fully customizable
+        Enterprise-grade E-commerce platform that helps scale small and medium-range businesses of varying sizes and
+        complexities.
         that scales with your business.</p>
     </div>
     <div class="container enterprise-solutions-options">
       <div class="row">
         <div class="col-sm-4 col-lg-3 options-list">
           <div class="list ">
-            <p class="list "style="font-size:18px ; font-weight: 500;" >Enterprise solutions</p>
-                    </div>
-<!-- <hr style=" border: 1px solid #503290;"> -->
-            <div class="list mt-5">
-              <p style="font-size:18px ; font-weight: 500;">Online Food Portal</p>
-            </div>
-
-            <div class="list mt-5">
-              <p style="font-size:18px ; font-weight: 500;" class="headings">Rental Property</p>
-            </div>
-
-            <div class="list mt-5">
-              <p style="font-size:18px ; font-weight: 500;">Retail Management</p>
-            </div>
-
-            <div class="list mt-5">
-              <p style="font-size:16px ; font-weight: 500;">Subscription Management</p>
-            </div>
-            <div class="list mt-5">
-              <p style="font-size:16px ; font-weight: 500;">Wallet Management</p>
-            </div>
-
-            <div class="list mt-5">
-              <p style="font-size:16px ; font-weight: 500;">Coupon and loyalty Aggregation</p>
-            </div>
+            <p class="list " style="font-size:18px ; font-weight: 500;">Enterprise solutions</p>
           </div>
-          <!-- <div class="right-tab"> -->
+          <!-- <hr style=" border: 1px solid #503290;"> -->
+          <div class="list mt-5">
+            <p style="font-size:18px ; font-weight: 500;">Online Food Portal</p>
+          </div>
 
-          <!-- <div class="right-options"> -->
-            <div class="col-sm-4 col-lg-9 enterprise-solutions option">
-              <img src="img/image 13.png">
-            </div>
-            <div class="col-sm-4 col-lg-9 online-food-portal hidden option">
-              <img src="img/image 13.png">
-            </div>
-            <div class="col-sm-4 col-lg-9 rental-property hidden option">
-              <img src="img/image 13.png">
-            </div>
-            <div class="col-sm-4 col-lg-9 retail-management hidden option">
-              <img src="img/image 13.png">
-            </div>
-            <div class="col-sm-4 col-lg-9 subscription-management right-tab hidden option">
-              <img src="img/image 13.png">
-            </div>
-            <div class="col-sm-4 col-lg-9 wallet-management right-tab hidden option">
-              <img src="img/image 13.png">
-            </div>
-            <div class="col-sm-4 col-lg-9 coupon-and-loyalty-aggregation right-tab option hidden">
-              <img src="img/image 13.png">
-            </div>
-          <!-- </div> -->
+          <div class="list mt-5">
+            <p style="font-size:18px ; font-weight: 500;" class="headings">Rental Property</p>
+          </div>
+
+          <div class="list mt-5">
+            <p style="font-size:18px ; font-weight: 500;">Retail Management</p>
+          </div>
+
+          <div class="list mt-5">
+            <p style="font-size:16px ; font-weight: 500;">Subscription Management</p>
+          </div>
+          <div class="list mt-5">
+            <p style="font-size:16px ; font-weight: 500;">Wallet Management</p>
+          </div>
+
+          <div class="list mt-5">
+            <p style="font-size:16px ; font-weight: 500;">Coupon and loyalty Aggregation</p>
+          </div>
         </div>
+        <!-- <div class="right-tab"> -->
+
+        <!-- <div class="right-options"> -->
+        <div class="col-sm-4 col-lg-9 enterprise-solutions option">
+          <img src="img/image 13.png">
+        </div>
+        <div class="col-sm-4 col-lg-9 online-food-portal hidden option">
+          <img src="img/image 13.png">
+        </div>
+        <div class="col-sm-4 col-lg-9 rental-property hidden option">
+          <img src="img/image 13.png">
+        </div>
+        <div class="col-sm-4 col-lg-9 retail-management hidden option">
+          <img src="img/image 13.png">
+        </div>
+        <div class="col-sm-4 col-lg-9 subscription-management right-tab hidden option">
+          <img src="img/image 13.png">
+        </div>
+        <div class="col-sm-4 col-lg-9 wallet-management right-tab hidden option">
+          <img src="img/image 13.png">
+        </div>
+        <div class="col-sm-4 col-lg-9 coupon-and-loyalty-aggregation right-tab option hidden">
+          <img src="img/image 13.png">
+        </div>
+        <!-- </div> -->
       </div>
+    </div>
     </div>
   </section>
 
@@ -403,10 +412,10 @@
           <p style="font-size:16px ; font-weight: 600; font-style: italic;color: #503291;" class="mt-1">Build automated
             interfaces and Automate your
             business processes using Cloud and SAAS technologies.</p>
-           <p style="font-size:16px ; font-weight: 500;color: #503291;">
-          Nipige as a digital enablement platform can digitalise
-          and automate processes on par with emerging business environments and align businesses with ecosystems that
-          necessitate digital processes and procedures.</p>
+          <p style="font-size:16px ; font-weight: 500;color: #503291;">
+            Nipige as a digital enablement platform can digitalise
+            and automate processes on par with emerging business environments and align businesses with ecosystems that
+            necessitate digital processes and procedures.</p>
         </div>
 
         <div class="col-lg-5">
@@ -427,9 +436,10 @@
         </div>
         <div class="col-lg-5">
           <p style="font-size:26px ; font-weight: 600;" class="mt-2">Sell products and services like never before.</p>
-          <p style="font-size:16px ; font-weight: 600;font-style: italic;color: #503291;" class="mt-2">Be part of an online business aggregator platform &
+          <p style="font-size:16px ; font-weight: 600;font-style: italic;color: #503291;" class="mt-2">Be part of an
+            online business aggregator platform &
             effortlessly connect with the B2B &B2C hyperlocal sectors.</p>
-            <p style="font-size:16px ; font-weight: 500; color: #503290;">
+          <p style="font-size:16px ; font-weight: 500; color: #503290;">
             B2B & B2C e-commerce solutions for businesses of varying sizes and complexities. B2B & B2C e-commerce
             platform support and e-marketplace for selling, buying, E-commerce, online retail chain management, and
             service deliverance for wide-ranging customers on fingertips. Entities, storekeepers, etc can now build
@@ -449,9 +459,10 @@
 
         <div class="col-lg-7">
           <p style="font-size:26px ; font-weight: 600;" class="mt-5">Make your presence felt with ease.</p>
-          <p style="font-size:16px ; font-weight: 600; font-style: italic;color: #503291;" class="mt-2">Multilingual approach with user-friendly
+          <p style="font-size:16px ; font-weight: 600; font-style: italic;color: #503291;" class="mt-2">Multilingual
+            approach with user-friendly
             dashboards</p>
-            <p style="font-size:16px ; font-weight: 500; color: #503290;">
+          <p style="font-size:16px ; font-weight: 500; color: #503290;">
             Nipige doesn’t just enable digital business conduct but also provides a big marketplace for small,
             medium-scale businesses of sorts. Multiple vendor and multiple product-based e-marketplace with a
             multi-lingual approach that could be of an effective linguistic barrier eraser for growing hyper-local
@@ -598,13 +609,13 @@
 
 
 
-  <div class="container contain description" >
+  <div class="container contain description">
     <div class="justaclick">
-    <h1 style="color:#503291;font-family: 500; font-size: 26px;">Just one click away!</h1>
-    <div class="box d-flex justify-content-center">
-      <p style="font-family: 400; font-size: 14px;">Get a quote, Buy, sell, connect, and explore the benefits of a B2B
-        and B2C business enabler digital platform in less than 2 minutes.</p>
-      
+      <h1 style="color:#503291;font-family: 500; font-size: 26px;">Just one click away!</h1>
+      <div class="box d-flex justify-content-center">
+        <p style="font-family: 400; font-size: 14px;">Get a quote, Buy, sell, connect, and explore the benefits of a B2B
+          and B2C business enabler digital platform in less than 2 minutes.</p>
+
         <button style="font-family: 600; font-size: 14px;" class="btn2" type="submit">REQUEST A QUOTE</button>
       </div>
     </div>
@@ -810,5 +821,52 @@
 
 
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+
+<script>
+  const sendMailBtn = document.querySelector(".sendMail");
+
+  sendMailBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    sendMail();
+  })
+
+  function sendMail() {
+
+    var fname = document.querySelector("input[name='first-name']").value;
+    var lname = document.querySelector("input[name='last-name']").value;
+    var email = document.querySelector("input[name='email']").value;
+    var message =document.querySelector("textarea[name='message']").value;
+    var Details = `FirstName ${fname} <br> LastName: ${lname} <br> Email: ${email}  <br> Message: ${message}`;
+
+    var token = "9d739608-41bb-4ff7-ac18-a90be37400ae";
+    var personalToken = "ad84cdfb-303d-4be0-bfda-15a36da165a7";
+
+
+    /*
+      pass - E05C1564874F00D805855ADA32252A5B8512
+    */
+
+
+    Email.send({
+      SecureToken : personalToken,
+      To: "naziyanaz1208@gmail.com",
+      // To: email,
+      // To: "venkat@trigital.in",
+      From: email, 
+      Subject: `Lead from Nipige: ${name}`,
+      Body: Details,
+    }).then((e) => {
+      console.log(e);
+      console.log("Success")}
+    ).catch(e => {
+      console.log(e);
+      alert(e.message);
+    });
+
+  }
+</script>
+
 
 </html>
