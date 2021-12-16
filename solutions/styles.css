@@ -327,6 +327,53 @@ padding: 1rem;
       .category{
           max-width: 100%;
       }
+
+     
+     .enterprise-solutions {
+         min-width: 100%;
+         margin: .8rem 0rem 0rem .8rem;
+     }
+
+      .food-portal, .wallet{
+        min-width: 100%;
+        margin: 2rem 0rem 0rem .8rem;
+    }
+
+    .food-portal> .image > img{
+       min-height: 86%;
+    }
+
+    .rental, .subscription, .coupon{
+        min-width: 100%;
+        margin: 0rem 0rem 5rem .8rem;
+
+    }
+
+    .rental >.image > img{
+       
+       width: 60%;
+       min-height: 112%;
+    }
+
+    .row {
+        max-width: 100%;
+    }
+
+    .retail{
+        min-width: 100%;
+        margin-left: 1rem;
+    }
+
+    .subscription >.image > img{
+       
+        width: 42%;
+        min-height: 122%;
+     }
+     .coupon >.image > img{
+       
+        width: 62%;
+        min-height: 118%;
+     }
   }
 
 
